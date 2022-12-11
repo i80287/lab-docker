@@ -1,4 +1,5 @@
-FROM python:3.11
+FROM ubuntu:22.04
+FROM python:3.11-alpine
 FROM node:12.18.1-alpine
 
 # Keeps Python from generating 
