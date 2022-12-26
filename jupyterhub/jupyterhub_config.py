@@ -119,7 +119,7 @@ c = get_config()  #noqa
 
 ## DEPRECATED since version 0.7.2, use Authenticator.admin_users instead.
 #  Default: set()
-# c.JupyterHub.admin_users = set()
+c.JupyterHub.admin_users = {"admin1", "admin42"}
 
 ## Allow named single-user servers per user
 #  Default: False
@@ -206,7 +206,7 @@ c = get_config()  #noqa
 #  
 #          The Hub should be able to resume from database state.
 #  Default: True
-# c.JupyterHub.cleanup_proxy = True
+c.JupyterHub.cleanup_proxy = False
 
 ## Whether to shutdown single-user servers when the Hub shuts down.
 #  
@@ -456,7 +456,7 @@ c = get_config()  #noqa
 #          See also `hub_ip` for the ip and `hub_bind_url` for setting the full
 #  bind URL.
 #  Default: 8081
-c.JupyterHub.hub_port = 80
+# c.JupyterHub.hub_port = 8081
 
 ## The routing prefix for the Hub itself.
 #  
@@ -659,7 +659,7 @@ c.JupyterHub.hub_port = 80
 #          .. deprecated: 0.9
 #              Use JupyterHub.bind_url
 #  Default: 8000
-# c.JupyterHub.port = 8000
+c.JupyterHub.port = 80
 
 ## DEPRECATED since version 0.8 : Use ConfigurableHTTPProxy.api_url
 #  Default: ''
@@ -1323,7 +1323,7 @@ c.JupyterHub.hub_port = 80
 #  .. versionchanged:: 1.2
 #      `Authenticator.whitelist` renamed to `allowed_users`
 #  Default: set()
-# c.Authenticator.allowed_users = set()
+c.Authenticator.allowed_users = {"user1", "user2", "user42"}
 
 ## The max age (in seconds) of authentication info
 #          before forcing a refresh of user auth info.
