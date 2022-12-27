@@ -115,11 +115,11 @@ c = get_config()  #noqa
 #          create restricted administrator roles.
 #          https://jupyterhub.readthedocs.io/en/stable/rbac/index.html
 #  Default: False
-# c.JupyterHub.admin_access = False
+c.JupyterHub.admin_access = True
 
 ## DEPRECATED since version 0.7.2, use Authenticator.admin_users instead.
 #  Default: set()
-c.JupyterHub.admin_users = {"admin1", "admin42"}
+# c.JupyterHub.admin_users = set()
 
 ## Allow named single-user servers per user
 #  Default: False
@@ -1309,7 +1309,7 @@ c.JupyterHub.port = 80
 #  
 #  Defaults to an empty set, in which case no user has admin access.
 #  Default: set()
-# c.Authenticator.admin_users = set()
+c.Authenticator.admin_users = {"admin42"}
 
 ## Set of usernames that are allowed to log in.
 #  
@@ -1323,7 +1323,11 @@ c.JupyterHub.port = 80
 #  .. versionchanged:: 1.2
 #      `Authenticator.whitelist` renamed to `allowed_users`
 #  Default: set()
-c.Authenticator.allowed_users = {"user1", "user2", "user42"}
+c.Authenticator.allowed_users = {"admin42", "user1", "user2", "user42"}
+
+c.LocalAuthenticator.create_system_users=True
+
+c.JupyterHub.authenticator_class = 'firstuseauthenticator.FirstUseAuthenticator'
 
 ## The max age (in seconds) of authentication info
 #          before forcing a refresh of user auth info.
