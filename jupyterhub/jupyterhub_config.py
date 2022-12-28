@@ -1309,7 +1309,7 @@ c.JupyterHub.port = 80
 #  
 #  Defaults to an empty set, in which case no user has admin access.
 #  Default: set()
-c.Authenticator.admin_users = {"admin42"}
+c.Authenticator.admin_users = {"admin"}
 
 ## Set of usernames that are allowed to log in.
 #  
@@ -1323,11 +1323,11 @@ c.Authenticator.admin_users = {"admin42"}
 #  .. versionchanged:: 1.2
 #      `Authenticator.whitelist` renamed to `allowed_users`
 #  Default: set()
-c.Authenticator.allowed_users = {"admin42", "user1", "user2", "user42"}
+c.Authenticator.allowed_users = {"admin"}
 
 c.LocalAuthenticator.create_system_users=True
 
-c.JupyterHub.authenticator_class = 'firstuseauthenticator.FirstUseAuthenticator'
+# c.JupyterHub.authenticator_class = 'firstuseauthenticator.FirstUseAuthenticator'
 
 ## The max age (in seconds) of authentication info
 #          before forcing a refresh of user auth info.
