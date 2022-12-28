@@ -2,3 +2,4 @@ notebook
 jupyter
 jupyterlab
 jupyterhub
+jupyterhub-firstuseauthenticator
