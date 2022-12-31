@@ -109,12 +109,13 @@ docker volume inspect имя_волюма
 **5.** Приложения для докера с GUI
 
 Если вы используете `Windows`, то может быть полезен интерфейс и функционал  приложения 
-`Docker Decktop`, в котором можно просматривать и управлять образами, контейнерами и т.д.
+`Docker Desktop`, в котором можно просматривать и управлять образами, контейнерами, `volume`'ами и т.д.
 <h1 align="center">
 <img src="https://i.ibb.co/M2k6Rgb/win-docker-desktop.png" style="width:911px;height:308px;">
 </h1><br>
-Если вы используете `Linux` и IDE `VS Code`, то может быть полезен интерфейс и функционал
-плагина `Docker` (`Ctrl` + `Shift` + `X` -> `Docker` в поисковой строке)
+
+Если вы используете `Linux` и IDE `VS Code`, то может быть полезен интерфейс и функционал <br />
+плагина `Docker` (для установки: `Ctrl` + `Shift` + `X` -> `Docker` в поисковой строке)
 <h1 align="center">
 <img src="https://i.ibb.co/s34TnV8/vscode-docker-extension.png" style="width:405px;height:371px;">
 </h1><br>
