@@ -26,8 +26,10 @@ COPY ./jupyterhub/jupyterhub_config.py /jupyterhub_lab/jupyterhub_config.py
 
 EXPOSE 80
 
+# Default value is "./*.ipynb"
 ENV NOTEBOOKS_FROM="./*.ipynb"
 
+# Default value is "/home/admin"
 ENV HUB_PATH="/home/admin"
 
 COPY ${NOTEBOOKS_FROM} ${HUB_PATH}
