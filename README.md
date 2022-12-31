@@ -54,7 +54,7 @@
 Введите пару логин-пароль `admin` - `admin`
 
 <h1 align="center">
-<img src="https://i.ibb.co/jRk35YK/rep-download-instr.png" style="width:500px;height:1200px;">
+<img src="https://i.ibb.co/jRk35YK/rep-download-instr.png" style="width:500px;height:800px;">
 </h1><br>
 
 Для вас будет создан сервер, на который вы сможете загружать свои файлы
@@ -95,7 +95,7 @@ docker rm имя_контейнера
 
 **1.** Открыть в редакторе файл `Dockerfile` и раскомментировать (убрать `# `) перед 3 строками, как на фото:
 <h1 align="center">
-<img src="https://i.ibb.co/mvmBsw5/file-uncomment.png" style="width:400px;height:1200px;">
+<img src="https://i.ibb.co/mvmBsw5/file-uncomment.png" style="width:1200px;height:400px;">
 </h1><br>
 
 Здесь переменная `NOTEBOOKS_FROM` отвечает за расположение файлов в вашей системе (`source`),
