@@ -6,6 +6,7 @@
 предназначенное для работы с технологиями контейнеризации
 
 Если вы используете Windows, вам поможет [эта](https://docs.docker.com/desktop/installwindows-install/) инструкция по установке
+
 Если вы используете Linux, то вам поможет [эта](https://docs.docker.com/engine/install/ubuntu/) инструкция по установке
 
 Копирование файлов
@@ -15,7 +16,7 @@
     
     git clone https://github.com/i80287/lab-docker.git
 
-Также вы можете сказать `zip` архив в 2 шага, как это показано ниже:
+Также вы можете скачать `zip` архив c файлами проекта в 2 шага, как это показано ниже:
 <h1 align="center">
 <img src="https://i.ibb.co/jRk35YK/rep-download-instr.png" style="width:50px;height:50px;">
 </h1><br>
