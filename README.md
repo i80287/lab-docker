@@ -54,7 +54,7 @@
 Введите пару логин-пароль `admin` - `admin`
 
 <h1 align="center">
-<img src="https://i.ibb.co/jRk35YK/rep-download-instr.png" style="width:600px;height:700px;">
+<img src="https://i.ibb.co/jRk35YK/rep-download-instr.png" style="width:500px;height:583px;">
 </h1><br>
 
 Для вас будет создан сервер, на который вы сможете загружать свои файлы
