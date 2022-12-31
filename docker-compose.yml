@@ -1,10 +1,15 @@
 version: '3.4'
 
 services:
-  labdocker:
-    image: jupyterhub_docker
+  jupyterhub_lab_container:
+    image: jupyterhub_lab
     build:
       context: .
       dockerfile: ./Dockerfile
     ports:
       - "8088:80"
+    volumes:
+      - home-volume:/home
+
+volumes:
+  home-volume:
