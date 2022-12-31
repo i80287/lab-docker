@@ -144,8 +144,7 @@ docker volume inspect имя_волюма
 `NOTEBOOKS_FROM` и `HUB_PATH` в `Dockerfile`.
 
 При указании путей стоит учитывать, что в `Unix` подобных системах, к которым относится и `Ubuntu`, <br />
-(т.к. является дистрибутивом ос `Debian`), файлы в пути разделяются символом `/`, а не `\`, <br />
-как в `Windows` и `Dos`
+(т.к. является дистрибутивом `Debian`), файлы в пути разделяются символом `/`, а не `\`, как в `Windows` и `Dos`
 
 - **Документация по Docker:** https://docs.docker.com/
 - **Документация по модификатору sudo в Linux:** https://linux.die.net/man/8/sudo
