@@ -1,8 +1,8 @@
-version: '3.4'
+version: '1.0.42'
 
 services:
   jupyterhub_lab_container:
-    image: jupyterhub_lab
+    image: jupyterhub_lab:1.0
     build:
       context: .
       dockerfile: ./Dockerfile
