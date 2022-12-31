@@ -26,8 +26,10 @@ COPY ./jupyterhub/jupyterhub_config.py /jupyterhub_lab/jupyterhub_config.py
 
 EXPOSE 80
 
-ENV NOTEBOOKS_FROM=""
+ENV NOTEBOOKS_FROM="./*.ipynb"
 
-ENV HUB_PATH=""
+ENV HUB_PATH="/home/admin"
+
+COPY ${NOTEBOOKS_FROM} ${HUB_PATH}
 
 ENTRYPOINT [ "jupyterhub", "-f", "/jupyterhub_lab/jupyterhub_config.py", "--ip", "0.0.0.0", "--port", "80" ]
