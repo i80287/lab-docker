@@ -110,7 +110,7 @@ docker volume inspect имя_волюма
 Если вы используете `Windows`, то может быть полезен интерфейс и функционал  приложения 
 `Docker Decktop`, в котором можно просматривать и управлять образами, контейнерами и т.д.
 <h1 align="center">
-<img src="https://i.ibb.co/M2k6Rgb/win-docker-desktop.png" style="width:911px;height:318px;">
+<img src="https://i.ibb.co/M2k6Rgb/win-docker-desktop.png" style="width:911px;height:308px;">
 </h1><br>
 Если вы используете `Linux` и IDE `VS Code`, то может быть полезен интерфейс и функционал
 плагина `Docker` (`Ctrl` + `Shift` + `X` -> `Docker` в поисковой строке)
