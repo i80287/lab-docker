@@ -18,7 +18,7 @@
 
 Также вы можете скачать `zip` архив c файлами проекта в 2 шага, как это показано ниже:
 <h1 align="center">
-<img src="https://i.ibb.co/jRk35YK/rep-download-instr.png" style="width:500px;height:583px;">
+<img src="https://i.ibb.co/jRk35YK/rep-download-instr.png" style="width:451px;height:553px;">
 </h1><br>
 
 После скачивания архива его нужно распаковать
@@ -54,7 +54,7 @@
 Введите пару логин-пароль `admin` - `admin`
 
 <h1 align="center">
-<img src="https://i.ibb.co/jRk35YK/rep-download-instr.png" style="width:500px;height:583px;">
+<img src="https://i.ibb.co/f4d0bjW/log-in-preview.png" style="width:381px;height:391px;">
 </h1><br>
 
 Для вас будет создан сервер, на который вы сможете загружать свои файлы
@@ -95,7 +95,7 @@ docker rm имя_контейнера
 
 **1.** Открыть в редакторе файл `Dockerfile` и раскомментировать (убрать `# `) перед 3 строками, как на фото:
 <h1 align="center">
-<img src="https://i.ibb.co/mvmBsw5/file-uncomment.png" style="width:1200px;height:200px;">
+<img src="https://i.ibb.co/mvmBsw5/file-uncomment.png" style="width:954px;height:199px;">
 </h1><br>
 
 Здесь переменная `NOTEBOOKS_FROM` отвечает за расположение файлов в вашей системе (`source`),
