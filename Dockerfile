@@ -12,7 +12,7 @@ RUN useradd --system \
     --shell /bin/bash \
     --gid root \
     --groups sudo \
-    --uid 3476 \
+    --uid 4242 \
     admin && \
     chown -R admin /jupyterhub_lab
 
