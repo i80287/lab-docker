@@ -18,7 +18,7 @@
 
 Также вы можете скачать `zip` архив c файлами проекта в 2 шага, как это показано ниже:
 <h1 align="center">
-<img src="https://i.ibb.co/jRk35YK/rep-download-instr.png" style="width:500px;height:500px;">
+<img src="https://i.ibb.co/jRk35YK/rep-download-instr.png" style="width:500px;height:600px;">
 </h1><br>
 После скачивания архива его нужно распаковать
 
