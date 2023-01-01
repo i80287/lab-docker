@@ -186,4 +186,6 @@ cp *.ipynb /home/admin
 
 - **Документация по Docker:** https://docs.docker.com/
 - **Документация по модификатору sudo в Linux:** https://linux.die.net/man/8/sudo
+- **Документация по команде ls в Linux:** https://linux.die.net/man/1/ls
+- **Документация по команде cp в Linux:** https://linux.die.net/man/1/cp
 - **Документация по Jupyterhub:** https://jupyterhub.readthedocs.io/en/stable/
