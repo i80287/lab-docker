@@ -14,5 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
-    - name: Build the run docker via compose
-      run: docker compose up
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag jupyterhub_lab:1.0
+    - name: Run Docker Container
+      run: docker run -d jupyterhub_lab:1.0
